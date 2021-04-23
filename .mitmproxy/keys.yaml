@@ -1,0 +1,4 @@
+# Copy curl request on c
+-
+  key: c
+  cmd: export.clip curl @focus
