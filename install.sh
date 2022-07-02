@@ -14,5 +14,5 @@ if isThisScriptPiped; then
 
 else
   # Install packages
-  sudo pacman -S $(cat packages)
+  sudo pacman -S $(cat packages) --noconfirm
 fi
